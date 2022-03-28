@@ -1,0 +1,8 @@
+* {
+    text-align: center;
+}
+
+.linebreak {
+    margin: 15px 0 0 0;
+    border-bottom: 2px solid black;
+}
