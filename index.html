@@ -11,19 +11,27 @@
 <body>
     <header>
         <h1>Temperature Converter</h1>
+        <div  id="instructions">
+            <ol>
+                <li>Enter base temperature value in either Celsius or Fahrenheit.</li>
+                <li>Press the Convert button to display the new converted temperature value.</li>
+                <li>Press the Reset button to start over.</li>
+            </ol>
+        </div>
     </header>
 
     <main>
-        <form>
-            <label for="cTemp"><input type="number" id="cTemp" name="cTemp">&deg;C</label><br>
+        <form id="celsius-form">
+            <label for="cTemp"><input type="number" id="cTemp" name="cTemp">&deg;C</label>
+                <span class="spacing"> OR </span>
+            <label for="fTemp"><input type="number" id="fTemp" name="fTemp">&deg;F</label><br>
             <input type="submit" id="convertBtn" value="Convert">
             <button id="resetBtn">Reset</button>
-
         </form>
-
+        
         <section id="results">
-            <h3><span id="base"></span>&deg;C is</h3>
-            <h1><span id="newValue"></span>&deg;F</h1>
+            <h3 id="base"></h3>
+            <h1 id="newValue"></h1>
         </section>
 
     </main>

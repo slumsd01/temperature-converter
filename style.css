@@ -2,6 +2,19 @@
     text-align: center;
 }
 
+#instructions {
+    width: 450px;
+    margin: auto;
+}
+
+#instructions li {
+    text-align: left;
+}
+
+button {
+    margin: 15px;
+}
+
 #results {
     margin: 15px 0 0 0;
     border-top: 2px solid black;
