@@ -15,16 +15,16 @@
 
     <main>
         <form>
-            <label for="c-temp"><input type="number" id="c-temp" name="c-temp">&deg;C</label><br>
-            <input type="submit" value="Convert">
+            <label for="cTemp"><input type="number" id="cTemp" name="cTemp">&deg;C</label><br>
+            <input type="submit" id="convertBtn" value="Convert">
+            <button id="resetBtn">Reset</button>
+
         </form>
 
-        <div class="linebreak"></div>
-
-        <h4>0 &deg;C is</h4>
-        <h2>32 &deg;F</h2>
-
-        <button>Reset</button>
+        <section id="results">
+            <h3><span id="base"></span>&deg;C is</h3>
+            <h1><span id="newValue"></span>&deg;F</h1>
+        </section>
 
     </main>
     <!-- scripts -->

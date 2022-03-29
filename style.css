@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.linebreak {
+#results {
     margin: 15px 0 0 0;
-    border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
